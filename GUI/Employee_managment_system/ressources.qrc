@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/img"/>
+    <qresource prefix="/">
+        <file>img/home.jpg</file>
+        <file>img/Company.jpeg</file>
+        <file>img/user.png</file>
+        <file>img/employee.jpeg</file>
+        <file>img/Login.png</file>
+        <file>img/LoginBG.jpg</file>
+        <file>img/username.png</file>
+        <file>img/password.png</file>
+        <file>img/Employees.jpg</file>
+        <file>img/loginBG.jpg</file>
+        <file>JS/UserRequests.js</file>
+        <file>JS/DepartmentRequests.js</file>
+        <file>JS/EmployeeRequests.js</file>
+        <file>JS/AttendanceRequests.js</file>
+    </qresource>
+</RCC>

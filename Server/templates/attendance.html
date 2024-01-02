@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+    <title>Attendance List</title>
+</head>
+<body>
+    <h1>Attendance List</h1>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Employee ID</th>
+            <th>Arrival Time</th>
+            <th>Departure Time</th>
+            <th>Date</th>
+            <th>Hours Worked</th>
+        </tr>
+        {% for attendance in attendance %}
+        <tr>
+            <td>{{ attendance.attendance_id }}</td>
+            <td>{{ attendance.employee_id }}</td>
+            <td>{{ attendance.arrival_time }}</td>
+            <td>{{ attendance.departure_time }}</td>
+            <td>{{ attendance.date }}</td>
+            <td>{{ attendance.hours_worked }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>

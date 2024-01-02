@@ -1,0 +1,23 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>Login.qml</file>
+        <file>Employee.qml</file>
+        <file>Home.qml</file>
+        <file>Department.qml</file>
+        <file>AddDepartment.qml</file>
+        <file>DeleteDepartment.qml</file>
+        <file>EditDepartment.qml</file>
+        <file>ShowDepartment.qml</file>
+        <file>User.qml</file>
+        <file>AddUser.qml</file>
+        <file>ShowUser.qml</file>
+        <file>DeleteUser.qml</file>
+        <file>EditUser.qml</file>
+        <file>AddEmployee.qml</file>
+        <file>DeleteEmployee.qml</file>
+        <file>ShowEmployee.qml</file>
+        <file>EditEmployee.qml</file>
+        <file>Attendance.qml</file>
+    </qresource>
+</RCC>
